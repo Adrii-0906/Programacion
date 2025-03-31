@@ -1,0 +1,27 @@
+@startuml
+abstract class Animal {
+    - int edad
+    - String nombre
+    + Animal(int edad, String nombre)
+    + int getEdad()
+    + void setEdad(int edad)
+    + String getNombre()
+    + void setNombre(String nombre)
+    + void dormir()
+    + {abstract} void hacerSonido()
+}
+
+class Perro {
+    + Perro(int edad, String nombre)
+    + void hacerSonido()
+}
+
+class Gato {
+    + Gato(int edad, String nombre)
+    + void hacerSonido()
+}
+
+Animal <|-- Perro
+Animal <|-- Gato
+@enduml
+

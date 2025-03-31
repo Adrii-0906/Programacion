@@ -1,0 +1,10 @@
+@startuml
+class Estudiante {
+  - nombre: String
+  - edad: int
+  - matriula: String
+
+  + registrar(nombre: String, edad: int, matriula: String): void
+  + mostrarInformacion(): void
+  }
+@enduml
