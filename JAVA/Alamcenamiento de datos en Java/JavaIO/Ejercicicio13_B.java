@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class Ejercicicio13B {
+public class Ejercicicio13_B {
     public static void main(String[] args) {
         copiarConTranferTo("src/imagen_copia.jpeg", "src/imagenCopia1.jpeg");
     }

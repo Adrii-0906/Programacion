@@ -20,6 +20,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Serializacion/Ejemplo2/SerializarLista.java" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -38,10 +41,12 @@
     "Application.Ejercicio2.executor": "Run",
     "Application.Ejercicio3.executor": "Run",
     "Application.Ejercicio3NIO.executor": "Run",
+    "Application.Ejercicio4.executor": "Run",
     "Application.Ejercicio6.executor": "Run",
     "Application.Ejercicio6NIO.executor": "Run",
     "Application.Ejercicio7NIO.executor": "Run",
     "Application.Ejercicio9.executor": "Run",
+    "Application.EjercicioA.executor": "Run",
     "Application.LectorArchivo.executor": "Run",
     "Application.LeerArchivos.executor": "Run",
     "Application.MArchivos.executor": "Run",
