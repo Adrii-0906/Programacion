@@ -33,6 +33,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ConexionBD.executor": "Run",
+    "Application.insertarUsuario.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/BBDD/Connexiones/mysql-connector-j-8.0.33.jar",
@@ -52,6 +53,13 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="crud_demo.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Connexiones/crud_demo.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +78,7 @@
       <updated>1745317845129</updated>
       <workItem from="1745318582228" duration="917000" />
       <workItem from="1745319538930" duration="428000" />
+      <workItem from="1745406075389" duration="4239000" />
     </task>
     <servers />
   </component>

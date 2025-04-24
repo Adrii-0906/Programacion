@@ -8,8 +8,9 @@ public class ConexionBD {
         try {
             Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/crud_demo", "root", "8888");
             System.out.println("Conexion correcta...");
+            conexion.close();
         } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
+            e.printStackTrace();
         }
     }
 }
