@@ -17,9 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2w25BNIiRP2mSeWILax70qgntPi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +28,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
