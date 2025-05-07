@@ -15,7 +15,7 @@ public class ProductoController {
     public ProductoController() {
         // Anadimos algunos productos de ejemplo
         productos.add(new Producto(idCounter++, "PortatilOscar", 1080.99));
-        productos.add(new Producto(idCounter++, "tabletJavi", 8000));
+        productos.add(new Producto(idCounter++, "tabletJavi", 800));
         productos.add(new Producto(idCounter++, "AuricularesMegaTroll", 100));
     }
 
