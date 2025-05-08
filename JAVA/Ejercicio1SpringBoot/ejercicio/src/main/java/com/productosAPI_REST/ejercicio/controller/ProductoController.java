@@ -1,43 +1,60 @@
 package com.productosAPI_REST.ejercicio.controller;
 
+
 import com.productosAPI_REST.ejercicio.model.Producto;
+import com.productosAPI_REST.ejercicio.repository.ProductoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+//@RequestMapping()
 public class ProductoController {
 
-    List<Producto> productos = new ArrayList<>();
-    int idCounter = 0;
+    @Autowired
+    private ProductoRepository productoRepository;
+
+    private final List<Producto> productos = new ArrayList<>();
+    private int idCounter = 0;
 
     public ProductoController() {
-        // Anadimos algunos productos de ejemplo
-        productos.add(new Producto(idCounter++, "PortatilOscar", 1080.99));
-        productos.add(new Producto(idCounter++, "tabletJavi", 800));
-        productos.add(new Producto(idCounter++, "AuricularesMegaTroll", 100));
+        // Añadimos algunos productos de ejemplos
+        productos.add(new Producto(idCounter++, "PortatilOscar", 1080));
+        productos.add(new Producto(idCounter++, "TabletJavi", 800));
+        productos.add(new Producto(idCounter++, "AuricularesEster", 100));
+
     }
 
     @GetMapping("/productos")
-    public List<Producto> obtenerProducto() {
+    public List<Producto> obtenerProductos() {
         return productos;
     }
 
-    @PostMapping("/productos")
+    @GetMapping
+    public List<Producto> obtenerTodos() {
+        return productoRepository.findAll();
+    }
+
+
+    @PostMapping("/producto")
     public Producto crearProducto(@RequestBody Producto producto) {
         producto.setId(idCounter++);
         productos.add(producto);
         return producto;
     }
 
-    @PutMapping("/prodfucto/{id}")
-    public Producto actualizarProducto(@RequestBody Producto productoActualizado, @PathVariable int id) {
 
+     // @RequestBody capturar el cuerpo de una petición HTTP y lo convierte en un objeto Java
+     // @PathVariable captura una parte (dato-variable) de la URL (en este caso un ID)
+
+    @PutMapping("/producto/{id}")
+    public Producto actualizarProducto(@RequestBody Producto productoActualizado, @PathVariable int id) {
         for (Producto producto : productos) {
             if (producto.getId() == id) {
                 producto.setNombre(productoActualizado.getNombre());
-                producto.setPrecio((productoActualizado.getPrecio()));
+                producto.setPrecio(productoActualizado.getPrecio());
                 return producto;
             }
         }

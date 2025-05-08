@@ -1,16 +1,17 @@
 package com.productosAPI_REST.ejercicio.model;
 
+import jakarta.persistence.*;
+
+
+@Entity
+@Table(name = "Productos")
 public class Producto {
 
-    //Atributos
-    private int id;
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private Integer id;
     private String nombre;
     private double precio;
-
-
-    // Constructor
-    public Producto() {
-    }
 
     public Producto(int id, String nombre, double precio) {
         this.id = id;
@@ -18,7 +19,7 @@ public class Producto {
         this.precio = precio;
     }
 
-    // Getters & Setters
+    public Producto() {}
 
     public int getId() {
         return id;
@@ -43,8 +44,6 @@ public class Producto {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
-
-    // Metodo toString
 
     @Override
     public String toString() {
