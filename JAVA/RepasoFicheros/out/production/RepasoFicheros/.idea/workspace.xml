@@ -17,9 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2woFcHOdDk0ByB83dU5h4ciTS9v" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,17 +27,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DeserializarCoche.executor": "Run",
     "Application.Ejercicio1.executor": "Run",
+    "Application.Ejercicio10.executor": "Run",
+    "Application.Ejercicio11.executor": "Run",
+    "Application.Ejercicio12.executor": "Run",
     "Application.Ejercicio2.executor": "Run",
     "Application.Ejercicio3.executor": "Run",
     "Application.Ejercicio4.executor": "Run",
     "Application.Ejercicio5.executor": "Run",
     "Application.Ejercicio6.executor": "Run",
     "Application.Ejercicio7.executor": "Run",
+    "Application.Ejercicio8.executor": "Run",
+    "Application.Ejercicio9.executor": "Run",
+    "Application.SerializarCoche.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FicherosIO" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
