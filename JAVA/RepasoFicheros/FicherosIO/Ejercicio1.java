@@ -13,14 +13,15 @@ public class Ejercicio1 {
             FileWriter fw = new FileWriter("/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO/datos.txt");
             BufferedWriter bw = new BufferedWriter(fw);
 
-            bw.write("Hola te damos la bienvenida a mi primer archivo");
+            bw.write("Hola como estas");
             bw.newLine();
-            bw.write("Me llamo Adrian y tengo 18 años");
+            bw.write("Me llamo Adrian");
 
             bw.close();
             fw.close();
+
         } catch (IOException e) {
-            System.out.println("Error: " +e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }

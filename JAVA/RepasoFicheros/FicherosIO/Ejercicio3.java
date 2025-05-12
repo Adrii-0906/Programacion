@@ -10,16 +10,14 @@ public class Ejercicio3 {
     public static void main(String[] args) {
 
         try {
-            FileReader fr = new FileReader("/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO/datos.txt");
-            BufferedReader br = new BufferedReader(fr);
+            BufferedReader br = new BufferedReader(new FileReader("/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO/datos.txt"));
 
             String linea;
+
             while ((linea = br.readLine()) != null) {
                 System.out.println(linea);
             }
 
-            br.close();
-            fr.close();
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }

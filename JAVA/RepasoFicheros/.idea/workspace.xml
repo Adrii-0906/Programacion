@@ -40,10 +40,20 @@
     "Application.Ejercicio7.executor": "Run",
     "Application.Ejercicio8.executor": "Run",
     "Application.Ejercicio9.executor": "Run",
+    "Application.MainBebida.executor": "Run",
+    "Application.MainEquipo.executor": "Run",
     "Application.SerializarCoche.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO"
+    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,5 +76,16 @@
       <updated>1746700098017</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CRUDPersistencia/MainBebida.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

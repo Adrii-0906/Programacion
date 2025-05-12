@@ -40,16 +40,30 @@
     "Application.Ejercicio7.executor": "Run",
     "Application.Ejercicio8.executor": "Run",
     "Application.Ejercicio9.executor": "Run",
+    "Application.MainEquipo.executor": "Run",
     "Application.SerializarCoche.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO"
+    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FicherosIO" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="$PROJECT_DIR$/Serializacion" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
