@@ -1,9 +1,5 @@
 [ {
   "id" : 1,
-  "nombre" : "RedLabel",
+  "nombre" : "Red Label",
   "alcohol" : true
-}, {
-  "id" : 2,
-  "nombre" : "CocaCola",
-  "alcohol" : false
 } ]
