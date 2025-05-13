@@ -1,0 +1,11 @@
+[ {
+  "id" : 1,
+  "nombre" : "kakaroto",
+  "poder" : 999,
+  "edad" : 45
+}, {
+  "id" : 2,
+  "nombre" : "Naruto",
+  "poder" : 998,
+  "edad" : 30
+} ]

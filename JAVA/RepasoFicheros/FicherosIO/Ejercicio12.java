@@ -11,20 +11,16 @@ public class Ejercicio12 {
         String rutaOrigen = "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO/demon.jpg";
         String rutaDestino = "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO/demonCopiado.jpg";
         try {
-            FileInputStream in = new FileInputStream(rutaOrigen);
-            FileOutputStream out = new FileOutputStream(rutaDestino);
+            FileInputStream is = new FileInputStream("FicherosIO/demon.jpg");
+            FileOutputStream os = new FileOutputStream("FicherosIO/demonCopia.jpg");
+
 
             byte[] buffer = new byte[1024];
-            int byteLeidos;
+            int bytesLeidos;
 
-            while ((byteLeidos = in.read(buffer)) != -1) {
-                out.write(buffer, 0, byteLeidos);
+            while ((bytesLeidos = is.read(buffer)) != -1) {
+                os.write(buffer, 0, bytesLeidos);
             }
-
-            in.close();
-            out.close();
-
-            System.out.println("Imagen copiada correctamente");
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
