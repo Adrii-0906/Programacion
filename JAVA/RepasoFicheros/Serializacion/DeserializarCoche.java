@@ -10,7 +10,7 @@ public class DeserializarCoche {
 
         try {
             ObjectInputStream in = new ObjectInputStream(new FileInputStream("/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/Serializacion/Coche.ser"));
-             Coche coche = (Coche) in.readObject();
+            Coche coche = (Coche) in.readObject();
             System.out.println(coche.toString());
             in.close();
         } catch (IOException e) {

@@ -27,7 +27,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DeserializacionVape.executor": "Run",
     "Application.DeserializarCoche.executor": "Run",
+    "Application.DeserializarCurso.executor": "Run",
     "Application.Ejercicio1.executor": "Run",
     "Application.Ejercicio10.executor": "Run",
     "Application.Ejercicio10_2.executor": "Run",
@@ -53,13 +55,17 @@
     "Application.Ejercicio8_2.executor": "Run",
     "Application.Ejercicio9.executor": "Run",
     "Application.Ejercicio9_2.executor": "Run",
+    "Application.ListarFicheros.executor": "Run",
     "Application.MainBebida.executor": "Run",
     "Application.MainContacto.executor": "Run",
     "Application.MainEquipo.executor": "Run",
     "Application.MainLibro.executor": "Run",
     "Application.MainMovil.executor": "Run",
     "Application.MainPersonaje.executor": "Run",
+    "Application.MainUsuario.executor": "Run",
+    "Application.SerializacionVape.executor": "Run",
     "Application.SerializarCoche.executor": "Run",
+    "Application.SerializarCurso.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -70,7 +76,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
   <component name="RecentsManager">
