@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -27,55 +28,83 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DeserializacionAnimal.executor": "Run",
+    "Application.DeserializacionComponente.executor": "Run",
+    "Application.DeserializacionVape.executor": "Run",
     "Application.DeserializarCoche.executor": "Run",
+    "Application.DeserializarCurso.executor": "Run",
+    "Application.DeserializarReloj.executor": "Run",
     "Application.Ejercicio1.executor": "Run",
     "Application.Ejercicio10.executor": "Run",
     "Application.Ejercicio10_2.executor": "Run",
+    "Application.Ejercicio10_3.executor": "Run",
     "Application.Ejercicio11.executor": "Run",
     "Application.Ejercicio11_2.executor": "Run",
+    "Application.Ejercicio11_3.executor": "Run",
     "Application.Ejercicio12.executor": "Run",
     "Application.Ejercicio12_2.executor": "Run",
+    "Application.Ejercicio12_3.executor": "Run",
     "Application.Ejercicio13_2.executor": "Run",
+    "Application.Ejercicio13_3.executor": "Run",
     "Application.Ejercicio1_2.executor": "Run",
+    "Application.Ejercicio1_3.executor": "Run",
     "Application.Ejercicio2.executor": "Run",
     "Application.Ejercicio2_2.executor": "Run",
+    "Application.Ejercicio2_3.executor": "Run",
     "Application.Ejercicio3.executor": "Run",
     "Application.Ejercicio3_2.executor": "Run",
+    "Application.Ejercicio3_3.executor": "Run",
     "Application.Ejercicio4.executor": "Run",
     "Application.Ejercicio4_2.executor": "Run",
+    "Application.Ejercicio4_3.executor": "Run",
     "Application.Ejercicio5.executor": "Run",
     "Application.Ejercicio5_2.executor": "Run",
+    "Application.Ejercicio5_3.executor": "Run",
     "Application.Ejercicio6.executor": "Run",
     "Application.Ejercicio6_2.executor": "Run",
+    "Application.Ejercicio6_3.executor": "Run",
     "Application.Ejercicio7.executor": "Run",
     "Application.Ejercicio7_2.executor": "Run",
+    "Application.Ejercicio7_3.executor": "Run",
     "Application.Ejercicio8.executor": "Run",
     "Application.Ejercicio8_2.executor": "Run",
+    "Application.Ejercicio8_3.executor": "Run",
     "Application.Ejercicio9.executor": "Run",
     "Application.Ejercicio9_2.executor": "Run",
+    "Application.Ejercicio9_3.executor": "Run",
+    "Application.ExploladorDeArchivos.executor": "Run",
+    "Application.ListarFicheros.executor": "Run",
     "Application.MainBebida.executor": "Run",
+    "Application.MainCancion.executor": "Run",
     "Application.MainContacto.executor": "Run",
     "Application.MainEquipo.executor": "Run",
     "Application.MainLibro.executor": "Run",
     "Application.MainMovil.executor": "Run",
+    "Application.MainPerro.executor": "Run",
     "Application.MainPersonaje.executor": "Run",
     "Application.MainUsuario.executor": "Run",
+    "Application.SerializacionAnimal.executor": "Run",
+    "Application.SerializacionComponente.executor": "Run",
+    "Application.SerializacionVape.executor": "Run",
     "Application.SerializarCoche.executor": "Run",
+    "Application.SerializarCurso.executor": "Run",
+    "Application.SerializarReloj.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO2",
+    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO3",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FicherosIO3" />
       <recent name="$PROJECT_DIR$/FicherosIO2" />
       <recent name="$PROJECT_DIR$/FicherosIO" />
     </key>

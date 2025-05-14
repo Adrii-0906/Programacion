@@ -1,0 +1,9 @@
+[ {
+  "id" : 1,
+  "cantidad" : 120,
+  "tipo" : "Billetes"
+}, {
+  "id" : 2,
+  "cantidad" : 20,
+  "tipo" : "Monedas"
+} ]
