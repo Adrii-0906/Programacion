@@ -12,21 +12,19 @@ public class Ejercicio13_3 {
 
 
          try {
-             FileInputStream fis = new FileInputStream("FicherosIO3/intell.png");
-             FileOutputStream fos = new FileOutputStream("FicherosIO3/intellCopia.png");
+             FileInputStream imagenOriginal = new FileInputStream("FicherosIO3/intell.png");
+             FileOutputStream imagenCoppiada = new FileOutputStream("FicherosIO3/intell1.png");
 
              byte[] buffer = new byte[1024];
              int byteLeidos;
 
-             while ((byteLeidos = fis.read(buffer)) != -1) {
-                 fos.write(buffer, 0, byteLeidos);
+             while ((byteLeidos = imagenOriginal.read(buffer)) != -1) {
+                 imagenCoppiada.write(buffer, 0, byteLeidos);
              }
 
-             fis.close();
-             fos.close();
 
-        } catch (IOException e) {
-            System.out.println("Error: " + e.getMessage());
-        }
+         } catch (IOException e) {
+             System.out.println("Error: " + e.getMessage());
+         }
     }
 }

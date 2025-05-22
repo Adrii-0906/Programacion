@@ -1,0 +1,45 @@
+EXAMEN PRÁCTICO EVALUACIÓN TERCERA  (1º DAM) - PROGRAMACIÓN EN JAVA. UD5. Almacenamiento, ficheros y CRUD
+
+Modalidad: Offline  |  Evaluación: Tests unitarios automáticos
+Entrega: Solo los archivos modificados en src/examen/
+
+OBJETIVO
+Completar varias clases Java a partir de un proyecto dado. Cada clase contiene un método main para pruebas básicas. La evaluación se realiza mediante tests automáticos (no modificar los tests).
+
+INSTRUCCIONES (lee con detenimiento)
+
+0. Algunos ejercicios hacen uso de clases modelo que NO están incluidas. Debes deducirlas e implementarlas.
+1. Usa Jackson solo en el ejercicio de JSON.
+2. Debes completar las clases que se encuentran en la carpeta `src/examen/`.
+3. Los recursos necesarios y generados (ficheros de texto, binarios o JSON) figurarán en la carpeta `resources/`.
+4. Ejecuta los tests desde tu IDE para comprobar si tus soluciones funcionan.
+5. Solo se corregirá lo que pase todos los tests correctamente.
+6. Cuando termines, comprime la carpeta `src/` y entrégala.
+
+EJERCICIOS A COMPLETAR
+
+| Clase                     | Descripción                                              | Puntos |
+|---------------------------|----------------------------------------------------------|--------|
+| ProbarAgenda.java         | CRUD de contactos con JSON (Jackson). Usa Contacto.      | 3.0    | +
+| ContadorPalabras.java     | Contar palabras en un fichero de texto.                  | 1.0    | +
+| CopiaBinaria.java         | Copiar un archivo binario.                               | 1.0    | +
+| ListadorDirectorios.java  | Mostrar el contenido de un directorio.                   | 1.0    | + No me pasa el test, pero al ejecutar esta te sale el resultado
+| BuscadorPatrones.java     | Buscar palabra exacta en fichero de texto.               | 1.0    | +
+| SerializadorObjetos.java  | Guardar/cargar lista de objetos Persona (binario).       | 1.0    | +
+| PalabrasPalindromas.java  | Analizar un archivo de texto para encontrar palíndromos  | 2.0    |
+
+MODELOS QUE DEBES IMPLEMENTAR
+- Contacto: nombre, teléfono, email. Compatible con Jackson.
+- Persona: nombre, edad. Serializable.
+
+EJEMPLO DE PUNTUACIÓN POR TEST
+[AgendaTest] testAgregarContacto PASSED (+1.0)
+
+ESTRUCTURA DEL PROYECTO
+src/examen/        → Clases por completar
+test/examen/       → Tests automáticos
+resources/         → Archivos de entrada (.txt, .jpg)
+
+IMPORTANTE
+- No se corregirá ningún archivo que no compile.
+- Usa buena indentación y nombra bien tus variables.

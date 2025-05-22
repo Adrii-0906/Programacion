@@ -28,12 +28,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CopiaArchivos.executor": "Run",
+    "Application.CrearVariasCarpetas.executor": "Run",
     "Application.DeserializacionAnimal.executor": "Run",
     "Application.DeserializacionComponente.executor": "Run",
     "Application.DeserializacionVape.executor": "Run",
     "Application.DeserializarCoche.executor": "Run",
+    "Application.DeserializarComida.executor": "Run",
     "Application.DeserializarCurso.executor": "Run",
+    "Application.DeserializarImagen.executor": "Run",
     "Application.DeserializarReloj.executor": "Run",
+    "Application.DeserializarRopa.executor": "Run",
     "Application.Ejercicio1.executor": "Run",
     "Application.Ejercicio10.executor": "Run",
     "Application.Ejercicio10_2.executor": "Run",
@@ -73,10 +78,12 @@
     "Application.Ejercicio9_2.executor": "Run",
     "Application.Ejercicio9_3.executor": "Run",
     "Application.ExploladorDeArchivos.executor": "Run",
+    "Application.ListarArchivos.executor": "Run",
     "Application.ListarFicheros.executor": "Run",
     "Application.MainBebida.executor": "Run",
     "Application.MainCancion.executor": "Run",
     "Application.MainContacto.executor": "Run",
+    "Application.MainDinero.executor": "Run",
     "Application.MainEquipo.executor": "Run",
     "Application.MainLibro.executor": "Run",
     "Application.MainMovil.executor": "Run",
@@ -85,17 +92,20 @@
     "Application.MainUsuario.executor": "Run",
     "Application.SerializacionAnimal.executor": "Run",
     "Application.SerializacionComponente.executor": "Run",
+    "Application.SerializacionImagen.executor": "Run",
     "Application.SerializacionVape.executor": "Run",
     "Application.SerializarCoche.executor": "Run",
+    "Application.SerializarComida.executor": "Run",
     "Application.SerializarCurso.executor": "Run",
     "Application.SerializarReloj.executor": "Run",
+    "Application.SerializarRopa.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO3",
+    "last_opened_file_path": "/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/EjercicioSerializacion8",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -104,6 +114,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EjercicioSerializacion8" />
       <recent name="$PROJECT_DIR$/FicherosIO3" />
       <recent name="$PROJECT_DIR$/FicherosIO2" />
       <recent name="$PROJECT_DIR$/FicherosIO" />

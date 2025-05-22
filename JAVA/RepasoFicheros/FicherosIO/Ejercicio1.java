@@ -10,15 +10,13 @@ public class Ejercicio1 {
 
     public static void main(String[] args) {
         try {
-            FileWriter fw = new FileWriter("/home/adrian/Documentos/1DAM/Programación/JAVA/RepasoFicheros/FicherosIO/datos.txt");
-            BufferedWriter bw = new BufferedWriter(fw);
+            BufferedWriter bw = new BufferedWriter(new FileWriter("FicherosIO/datos.txt"));
 
             bw.write("Hola como estas");
             bw.newLine();
             bw.write("Me llamo Adrian");
 
             bw.close();
-            fw.close();
 
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
