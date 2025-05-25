@@ -37,10 +37,4 @@ public class hotelService {
         return hotelRepository.save(hotel);
     }
 
-    /**
-     * Creamos el metodo para buscar hoteles por su nombre
-     */
-    public hotelModel buscarHotelPorId(Long id) {
-        return hotelRepository.findById(id).orElse(null);
-    }
 }
